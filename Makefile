@@ -1,8 +1,9 @@
 main:
 	pyinstaller --onefile FYFetcher.py
+	mv ./dist/FYFetcher .
 
 install:
-	cp ./dist/FYFetcher /usr/bin/FYFetcher
+	cp ./FYFetcher /usr/bin/FYFetcher
 
 cleanup:
 	rm -rf dist build FYFetcher.spec
