@@ -303,9 +303,6 @@ menubar.add_cascade(label='File', menu=file)
 file.add_command(label="New Download", command=new_download)
 file.add_command(label="New YouTube Download", command=new_video)
 file.add_separator()
-# Add the Open Folder section
-file.add_command(label="Open Folder", command=path)
-file.add_separator()
 # Add the Exit section
 file.add_command(label="Exit", command=root.destroy)
 
